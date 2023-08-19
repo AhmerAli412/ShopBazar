@@ -1,0 +1,15 @@
+.bari-image1{
+    height: 370px;
+    margin-top: 15px;
+    /* margin-left: 15px;
+    margin-right: 10px; */
+    margin-bottom: 30px;
+    border: none;
+}
+
+.bari-image1 img{
+    margin-top: 35px;
+    margin-bottom: 32px;
+    border: none;
+}
+

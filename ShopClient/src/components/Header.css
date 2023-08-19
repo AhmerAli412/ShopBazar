@@ -1,0 +1,20 @@
+nav.sticky {
+    /* box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6); */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .hea{
+    background-color: white;
+  }
+
+  nav {
+    /*height: 90px;
+    background: #111;
+    */transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}

@@ -1,0 +1,73 @@
+
+ .parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 11px;
+    height: 280px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 25px;
+    }
+    
+    .div1 { 
+        grid-area: 1 / 1 / 3 / 3; 
+        background-color: aqua;
+        height: 280px;
+    }
+    .div2 { 
+        grid-area: 1 / 3 / 3 / 4; 
+        background-color: antiquewhite;
+        height: 280px;
+    }
+    .div3 { 
+        grid-area: 1 / 4 / 2 / 5; 
+        background-color: aquamarine;
+        
+        height: 135px;
+       
+    }
+    .div4 { 
+        grid-area: 2 / 4 / 3 / 5; 
+        background-color: brown;
+        height: 135px;
+       
+    }
+
+   @media(max-width : 786px){
+    .div1{
+        width: 370px;
+        justify-content: center;
+        margin: 7px;
+    }
+   }
+
+   @media(max-width : 786px){
+    .div2{
+        width: 370px;
+        /* justify-content: center; */
+        display: flex;
+        margin: 7px;
+    }
+    .parent{
+        display: block;
+        height: 900px;
+    }
+   }
+
+   @media(max-width : 786px){
+    .div3{
+        width: 370px;
+        /* justify-content: center; */
+        margin: 7px;
+    }
+   }
+
+   @media(max-width : 786px){
+    .div4{
+        width: 370px;
+        /* justify-content: center; */
+        margin: 7px;
+    }
+   }
