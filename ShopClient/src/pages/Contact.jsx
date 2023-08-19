@@ -41,7 +41,7 @@ const Contact = () => {
     console.log(name + "" + email + "" + subject + "" + message);
     const configuration = {
       method: "post",
-      url: "http://localhost:5000/api/contact/contact",
+      url: "https://shopybazar.onrender.com/api/contact/contact",
       data: {
         username: name,
         email: email,

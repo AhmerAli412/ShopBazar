@@ -172,7 +172,7 @@ const Cart = () => {
   useEffect(() => {
     const makeRequest = async () => {
       try {
-        const res = await axios.post("http://localhost:5000/api/checkout/payment", {
+        const res = await axios.post("https://shopybazar.onrender.com/api/checkout/payment", {
           tokenId: stripeToken.id,
           amount: 2000,
         }

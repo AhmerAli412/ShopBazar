@@ -187,7 +187,7 @@ const Register = () => {
     console.log(name + "" + email + "" + password);
     const configuration = {
       method: "post",
-      url: "http://localhost:5000/api/auth/register",
+      url: "https://shopybazar.onrender.com/api/auth/register",
       data: {
         username: name,
         email: email,
